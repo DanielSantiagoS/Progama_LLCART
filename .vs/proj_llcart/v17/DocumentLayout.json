@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\",
+  "WorkspaceRootPath": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|c:\\users\\lab3126\\downloads\\progama_llcart\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|c:\\users\\ds864\\downloads\\proj_llcart\\proj_llcart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\dao\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\dao\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:dao\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\dao\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\dao\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:dao\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\dao\\pedidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\dao\\pedidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:dao\\pedidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\dao\\mesadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\dao\\mesadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:dao\\mesadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\dao\\comandadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\dao\\comandadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:dao\\comandadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E139D1A4-2AA2-45F1-AF97-8E3AB2462EDC}|proj_llcart.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -54,95 +54,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\UsuarioDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\UsuarioDAO.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\UsuarioDAO.cs",
-              "RelativeToolTip": "DAO\\UsuarioDAO.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:05:26.585Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "PedidoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\PedidoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\PedidoDAO.cs",
               "RelativeDocumentMoniker": "DAO\\PedidoDAO.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\PedidoDAO.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\PedidoDAO.cs",
               "RelativeToolTip": "DAO\\PedidoDAO.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAowAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:04:24.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T23:04:24.263Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ComandaDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\ComandaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\ComandaDAO.cs",
               "RelativeDocumentMoniker": "DAO\\ComandaDAO.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\ComandaDAO.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\ComandaDAO.cs",
               "RelativeToolTip": "DAO\\ComandaDAO.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:00:19.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T23:00:19.743Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ProdutoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\ProdutoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\ProdutoDAO.cs",
               "RelativeDocumentMoniker": "DAO\\ProdutoDAO.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\ProdutoDAO.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\ProdutoDAO.cs",
               "RelativeToolTip": "DAO\\ProdutoDAO.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowEAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T22:59:09.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MesaDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\MesaDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\MesaDAO.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\DAO\\MesaDAO.cs",
-              "RelativeToolTip": "DAO\\MesaDAO.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAwwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T22:57:11.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T22:59:09.524Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Data\\Database.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Data\\Database.cs",
               "RelativeDocumentMoniker": "Data\\Database.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Data\\Database.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Data\\Database.cs",
               "RelativeToolTip": "Data\\Database.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAnwA4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T22:55:51.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "UsuarioDAO.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\UsuarioDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\UsuarioDAO.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\UsuarioDAO.cs",
+              "RelativeToolTip": "DAO\\UsuarioDAO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T23:05:26.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MesaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\MesaDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\MesaDAO.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\DAO\\MesaDAO.cs",
+              "RelativeToolTip": "DAO\\MesaDAO.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T22:57:11.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Program.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T22:39:33.771Z",
               "EditorCaption": ""
@@ -151,53 +146,49 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Services.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Services\\Services.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Services\\Services.cs",
               "RelativeDocumentMoniker": "Services\\Services.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Services\\Services.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Services\\Services.cs",
               "RelativeToolTip": "Services\\Services.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:09:27.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T23:09:27.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Models.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Models\\Models.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Models\\Models.cs",
               "RelativeDocumentMoniker": "Models\\Models.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Models\\Models.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Models\\Models.cs",
               "RelativeToolTip": "Models\\Models.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAwwA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T22:54:11.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T22:54:11.379Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Utils\\Utils.cs",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Utils\\Utils.cs",
               "RelativeDocumentMoniker": "Utils\\Utils.cs",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\Utils\\Utils.cs",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\Utils\\Utils.cs",
               "RelativeToolTip": "Utils\\Utils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:07:21.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T23:07:21.068Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\App.config",
+              "DocumentMoniker": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\App.config",
               "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\ds864\\Downloads\\proj_llcart\\proj_llcart\\App.config",
+              "ToolTip": "C:\\Users\\lab3126\\Downloads\\Progama_LLCART\\App.config",
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAEAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-25T23:17:38.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T23:17:38.857Z"
             }
           ]
         }
