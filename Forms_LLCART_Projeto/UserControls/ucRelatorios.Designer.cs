@@ -1,0 +1,423 @@
+﻿namespace Forms_LLCART_Projeto.UserControls
+{
+    partial class ucRelatorios
+    {
+        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Panel panelResumo;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTotalDia;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblMediaHora;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblTotalVendas;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblTicketMedio;
+        private System.Windows.Forms.Panel panelTopProdutos;
+        private System.Windows.Forms.DataGridView dataGridTopProdutos;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panelOcupacao;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblTotalMesas;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblMesasOcupadas;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lblTaxaOcupacao;
+        private System.Windows.Forms.Panel panelOcupacaoBase;
+        private System.Windows.Forms.Panel panelOcupacaoBarra;
+        private System.Windows.Forms.Button btnGerarRelatorio;
+        private System.Windows.Forms.Button btnExportarExcel;
+        private System.Windows.Forms.ComboBox comboPeriodo;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button btnAtualizar;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.panelResumo = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lblTicketMedio = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblTotalVendas = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblMediaHora = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblTotalDia = new System.Windows.Forms.Label();
+            this.panelTopProdutos = new System.Windows.Forms.Panel();
+            this.dataGridTopProdutos = new System.Windows.Forms.DataGridView();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panelOcupacao = new System.Windows.Forms.Panel();
+            this.panelOcupacaoBase = new System.Windows.Forms.Panel();
+            this.panelOcupacaoBarra = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lblTaxaOcupacao = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.lblMesasOcupadas = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lblTotalMesas = new System.Windows.Forms.Label();
+            this.btnGerarRelatorio = new System.Windows.Forms.Button();
+            this.btnExportarExcel = new System.Windows.Forms.Button();
+            this.comboPeriodo = new System.Windows.Forms.ComboBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.btnAtualizar = new System.Windows.Forms.Button();
+            this.panelResumo.SuspendLayout();
+            this.panelTopProdutos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridTopProdutos)).BeginInit();
+            this.panelOcupacao.SuspendLayout();
+            this.panelOcupacaoBase.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.lblTitulo.Location = new System.Drawing.Point(0, 0);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(984, 60);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "RELATÓRIOS E ANALYTICS";
+            this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panelResumo
+            // 
+            this.panelResumo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelResumo.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelResumo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelResumo.Controls.Add(this.label7);
+            this.panelResumo.Controls.Add(this.lblTicketMedio);
+            this.panelResumo.Controls.Add(this.label5);
+            this.panelResumo.Controls.Add(this.lblTotalVendas);
+            this.panelResumo.Controls.Add(this.label3);
+            this.panelResumo.Controls.Add(this.lblMediaHora);
+            this.panelResumo.Controls.Add(this.label1);
+            this.panelResumo.Controls.Add(this.lblTotalDia);
+            this.panelResumo.Location = new System.Drawing.Point(20, 80);
+            this.panelResumo.Name = "panelResumo";
+            this.panelResumo.Size = new System.Drawing.Size(944, 80);
+            this.panelResumo.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(720, 15);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(91, 15);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Ticket Médio:";
+            // 
+            // lblTicketMedio
+            // 
+            this.lblTicketMedio.AutoSize = true;
+            this.lblTicketMedio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTicketMedio.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblTicketMedio.Location = new System.Drawing.Point(720, 40);
+            this.lblTicketMedio.Name = "lblTicketMedio";
+            this.lblTicketMedio.Size = new System.Drawing.Size(72, 20);
+            this.lblTicketMedio.TabIndex = 6;
+            this.lblTicketMedio.Text = "R$ 0,00";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(480, 15);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(99, 15);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Total Vendas:";
+            // 
+            // lblTotalVendas
+            // 
+            this.lblTotalVendas.AutoSize = true;
+            this.lblTotalVendas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalVendas.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblTotalVendas.Location = new System.Drawing.Point(480, 40);
+            this.lblTotalVendas.Name = "lblTotalVendas";
+            this.lblTotalVendas.Size = new System.Drawing.Size(19, 20);
+            this.lblTotalVendas.TabIndex = 4;
+            this.lblTotalVendas.Text = "0";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(240, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(122, 15);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Média por Hora:";
+            // 
+            // lblMediaHora
+            // 
+            this.lblMediaHora.AutoSize = true;
+            this.lblMediaHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMediaHora.ForeColor = System.Drawing.Color.DarkOrange;
+            this.lblMediaHora.Location = new System.Drawing.Point(240, 40);
+            this.lblMediaHora.Name = "lblMediaHora";
+            this.lblMediaHora.Size = new System.Drawing.Size(72, 20);
+            this.lblMediaHora.TabIndex = 2;
+            this.lblMediaHora.Text = "R$ 0,00";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(20, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 15);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Total do Dia (R$):";
+            // 
+            // lblTotalDia
+            // 
+            this.lblTotalDia.AutoSize = true;
+            this.lblTotalDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalDia.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblTotalDia.Location = new System.Drawing.Point(20, 40);
+            this.lblTotalDia.Name = "lblTotalDia";
+            this.lblTotalDia.Size = new System.Drawing.Size(72, 20);
+            this.lblTotalDia.TabIndex = 0;
+            this.lblTotalDia.Text = "R$ 0,00";
+            // 
+            // panelTopProdutos
+            // 
+            this.panelTopProdutos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelTopProdutos.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelTopProdutos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelTopProdutos.Controls.Add(this.dataGridTopProdutos);
+            this.panelTopProdutos.Controls.Add(this.label9);
+            this.panelTopProdutos.Location = new System.Drawing.Point(20, 180);
+            this.panelTopProdutos.Name = "panelTopProdutos";
+            this.panelTopProdutos.Size = new System.Drawing.Size(600, 200);
+            this.panelTopProdutos.TabIndex = 2;
+            // 
+            // dataGridTopProdutos
+            // 
+            this.dataGridTopProdutos.AllowUserToAddRows = false;
+            this.dataGridTopProdutos.AllowUserToDeleteRows = false;
+            this.dataGridTopProdutos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridTopProdutos.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridTopProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridTopProdutos.Location = new System.Drawing.Point(10, 40);
+            this.dataGridTopProdutos.Name = "dataGridTopProdutos";
+            this.dataGridTopProdutos.ReadOnly = true;
+            this.dataGridTopProdutos.Size = new System.Drawing.Size(578, 148);
+            this.dataGridTopProdutos.TabIndex = 1;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(10, 10);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(149, 17);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "TOP 5 PRODUTOS";
+            // 
+            // panelOcupacao
+            // 
+            this.panelOcupacao.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelOcupacao.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelOcupacao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelOcupacao.Controls.Add(this.panelOcupacaoBase);
+            this.panelOcupacao.Controls.Add(this.label15);
+            this.panelOcupacao.Controls.Add(this.lblTaxaOcupacao);
+            this.panelOcupacao.Controls.Add(this.label13);
+            this.panelOcupacao.Controls.Add(this.lblMesasOcupadas);
+            this.panelOcupacao.Controls.Add(this.label11);
+            this.panelOcupacao.Controls.Add(this.lblTotalMesas);
+            this.panelOcupacao.Location = new System.Drawing.Point(640, 180);
+            this.panelOcupacao.Name = "panelOcupacao";
+            this.panelOcupacao.Size = new System.Drawing.Size(324, 200);
+            this.panelOcupacao.TabIndex = 3;
+            // 
+            // panelOcupacaoBase
+            // 
+            this.panelOcupacaoBase.BackColor = System.Drawing.Color.LightGray;
+            this.panelOcupacaoBase.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelOcupacaoBase.Controls.Add(this.panelOcupacaoBarra);
+            this.panelOcupacaoBase.Location = new System.Drawing.Point(20, 120);
+            this.panelOcupacaoBase.Name = "panelOcupacaoBase";
+            this.panelOcupacaoBase.Size = new System.Drawing.Size(284, 30);
+            this.panelOcupacaoBase.TabIndex = 6;
+            // 
+            // panelOcupacaoBarra
+            // 
+            this.panelOcupacaoBarra.BackColor = System.Drawing.Color.LightGreen;
+            this.panelOcupacaoBarra.Location = new System.Drawing.Point(0, 0);
+            this.panelOcupacaoBarra.Name = "panelOcupacaoBarra";
+            this.panelOcupacaoBarra.Size = new System.Drawing.Size(142, 28);
+            this.panelOcupacaoBarra.TabIndex = 0;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(20, 100);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(125, 15);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "Taxa de Ocupação:";
+            // 
+            // lblTaxaOcupacao
+            // 
+            this.lblTaxaOcupacao.AutoSize = true;
+            this.lblTaxaOcupacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTaxaOcupacao.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblTaxaOcupacao.Location = new System.Drawing.Point(150, 97);
+            this.lblTaxaOcupacao.Name = "lblTaxaOcupacao";
+            this.lblTaxaOcupacao.Size = new System.Drawing.Size(44, 20);
+            this.lblTaxaOcupacao.TabIndex = 4;
+            this.lblTaxaOcupacao.Text = "0,0%";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(20, 60);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(118, 15);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "Mesas Ocupadas:";
+            // 
+            // lblMesasOcupadas
+            // 
+            this.lblMesasOcupadas.AutoSize = true;
+            this.lblMesasOcupadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMesasOcupadas.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblMesasOcupadas.Location = new System.Drawing.Point(150, 57);
+            this.lblMesasOcupadas.Name = "lblMesasOcupadas";
+            this.lblMesasOcupadas.Size = new System.Drawing.Size(19, 20);
+            this.lblMesasOcupadas.TabIndex = 2;
+            this.lblMesasOcupadas.Text = "0";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(20, 20);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(95, 15);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Total Mesas:";
+            // 
+            // lblTotalMesas
+            // 
+            this.lblTotalMesas.AutoSize = true;
+            this.lblTotalMesas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalMesas.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblTotalMesas.Location = new System.Drawing.Point(150, 17);
+            this.lblTotalMesas.Name = "lblTotalMesas";
+            this.lblTotalMesas.Size = new System.Drawing.Size(19, 20);
+            this.lblTotalMesas.TabIndex = 0;
+            this.lblTotalMesas.Text = "0";
+            // 
+            // btnGerarRelatorio
+            // 
+            this.btnGerarRelatorio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnGerarRelatorio.BackColor = System.Drawing.Color.LightGreen;
+            this.btnGerarRelatorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGerarRelatorio.Location = new System.Drawing.Point(20, 500);
+            this.btnGerarRelatorio.Name = "btnGerarRelatorio";
+            this.btnGerarRelatorio.Size = new System.Drawing.Size(150, 35);
+            this.btnGerarRelatorio.TabIndex = 4;
+            this.btnGerarRelatorio.Text = "📊 Gerar Relatório";
+            this.btnGerarRelatorio.UseVisualStyleBackColor = false;
+            // 
+            // btnExportarExcel
+            // 
+            this.btnExportarExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnExportarExcel.BackColor = System.Drawing.Color.LightBlue;
+            this.btnExportarExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportarExcel.Location = new System.Drawing.Point(190, 500);
+            this.btnExportarExcel.Name = "btnExportarExcel";
+            this.btnExportarExcel.Size = new System.Drawing.Size(180, 35);
+            this.btnExportarExcel.TabIndex = 5;
+            this.btnExportarExcel.Text = "📈 Exportar para Excel";
+            this.btnExportarExcel.UseVisualStyleBackColor = false;
+            // 
+            // comboPeriodo
+            // 
+            this.comboPeriodo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboPeriodo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboPeriodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboPeriodo.FormattingEnabled = true;
+            this.comboPeriodo.Items.AddRange(new object[] {
+            "Diário",
+            "Semanal",
+            "Mensal",
+            "Anual"});
+            this.comboPeriodo.Location = new System.Drawing.Point(640, 510);
+            this.comboPeriodo.Name = "comboPeriodo";
+            this.comboPeriodo.Size = new System.Drawing.Size(120, 23);
+            this.comboPeriodo.TabIndex = 6;
+            // 
+            // label17
+            // 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(580, 513);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(54, 15);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "Período:";
+            // 
+            // btnAtualizar
+            // 
+            this.btnAtualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAtualizar.BackColor = System.Drawing.Color.LightYellow;
+            this.btnAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtualizar.Location = new System.Drawing.Point(780, 500);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(180, 35);
+            this.btnAtualizar.TabIndex = 8;
+            this.btnAtualizar.Text = "🔄 Atualizar Dados";
+            this.btnAtualizar.UseVisualStyleBackColor = false;
+            // 
+            // ucRelatorios
+            // 
+            this.Controls.Add(this.btnAtualizar);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.comboPeriodo);
+            this.Controls.Add(this.btnExportarExcel);
+            this.Controls.Add(this.btnGerarRelatorio);
+            this.Controls.Add(this.panelOcupacao);
+            this.Controls.Add(this.panelTopProdutos);
+            this.Controls.Add(this.panelResumo);
+            this.Controls.Add(this.lblTitulo);
+            this.Name = "ucRelatorios";
+            this.Size = new System.Drawing.Size(984, 561);
+            this.panelResumo.ResumeLayout(false);
+            this.panelResumo.PerformLayout();
+            this.panelTopProdutos.ResumeLayout(false);
+            this.panelTopProdutos.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridTopProdutos)).EndInit();
+            this.panelOcupacao.ResumeLayout(false);
+            this.panelOcupacao.PerformLayout();
+            this.panelOcupacaoBase.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+    }
+}

@@ -1,0 +1,10 @@
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.csproj.AssemblyReference.cache
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.Properties.Resources.resources
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.csproj.GenerateResource.cache
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.csproj.CoreCompileInputs.cache
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\bin\Debug\Forms_LLCART_Projeto.exe.config
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\bin\Debug\Forms_LLCART_Projeto.exe
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\bin\Debug\Forms_LLCART_Projeto.pdb
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.exe
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.pdb
+C:\Users\lab2088\source\repos\Forms_LLCART_Projeto\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.exe.config
