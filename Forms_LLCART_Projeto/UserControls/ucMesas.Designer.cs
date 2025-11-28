@@ -1,10 +1,15 @@
-﻿namespace Forms_LLCART_Projeto.UserControls
+﻿
+
+namespace Forms_LLCART_Projeto.UserControls
 {
     partial class ucMesas
     {
         private System.ComponentModel.IContainer components = null;
         private System.Windows.Forms.FlowLayoutPanel flowPanel;
         private System.Windows.Forms.Label lblTitulo;
+        
+
+
 
         protected override void Dispose(bool disposing)
         {

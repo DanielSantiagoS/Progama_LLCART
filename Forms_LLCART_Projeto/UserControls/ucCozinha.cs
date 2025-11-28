@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Forms_LLCART_Projeto.Models;
+using Forms_LLCART_Projeto.Services;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
-using Forms_LLCART_Projeto.Models;
-using Forms_LLCART_Projeto.Services;
 
 namespace Forms_LLCART_Projeto.UserControls
 {
@@ -186,12 +187,24 @@ namespace Forms_LLCART_Projeto.UserControls
 
         private void AtualizarStatusItem(ItemPedido item, StatusItem novoStatus)
         {
-            item.Status = novoStatus;
+            var pedidoService = new PedidoService();
+
+            var pedidosAtivos = pedidoService.ObterPedidosAtivos();
+            foreach (var pedido in pedidosAtivos)
+            {
+                var itemEncontrado = pedido.Itens.FirstOrDefault(i => i.Id == item.Id);
+                if (itemEncontrado != null)
+                {
+                    pedidoService.AtualizarStatusItem(pedido.Id, item.Id, novoStatus);
+                    break;
+                }
+            }
+
             CarregarPedidos();
             MessageBox.Show($"Status atualizado para: {novoStatus}", "Sucesso",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-       
+
     }
 }

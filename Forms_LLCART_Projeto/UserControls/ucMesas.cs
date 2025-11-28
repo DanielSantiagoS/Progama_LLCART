@@ -17,6 +17,36 @@ namespace Forms_LLCART_Projeto.UserControls
             InitializeComponent();
             mesaService = new MesaService();
             CarregarMesas();
+            CriarBotaoAtualizar();
+            CarregarMesas();
+        }
+
+        private void CriarBotaoAtualizar()
+        {
+            var btnAtualizar = new Button
+            {
+                Text = "🔄 Atualizar",
+                Size = new Size(100, 30),
+                Location = new Point(20, 20),
+                BackColor = Color.LightBlue,
+                Font = new Font("Microsoft Sans Serif", 9, FontStyle.Bold)
+            };
+
+            btnAtualizar.Click += (s, e) =>
+            {
+                CarregarMesas();
+                MessageBox.Show("Mesas atualizadas!", "Atualizado",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            };
+
+            this.Controls.Add(btnAtualizar);
+
+            var flowPanel = this.Controls[0] as FlowLayoutPanel;
+            if (flowPanel != null)
+            {
+                flowPanel.Location = new Point(0, 60);
+                flowPanel.Height = this.Height - 60;
+            }
         }
 
         private void CarregarMesas()
@@ -40,7 +70,8 @@ namespace Forms_LLCART_Projeto.UserControls
                 Height = 150,
                 Margin = new Padding(10),
                 BorderStyle = BorderStyle.FixedSingle,
-                Cursor = Cursors.Hand
+                Cursor = Cursors.Hand,
+                Tag = mesa
             };
 
             Color corStatus;
@@ -68,7 +99,8 @@ namespace Forms_LLCART_Projeto.UserControls
                 Dock = DockStyle.Top,
                 Height = 40,
                 TextAlign = ContentAlignment.MiddleCenter,
-                Font = new Font("Microsoft Sans Serif", 12, FontStyle.Bold)
+                Font = new Font("Microsoft Sans Serif", 12, FontStyle.Bold),
+                BackColor = Color.Transparent
             };
 
             var lblCapacidade = new Label
@@ -76,7 +108,8 @@ namespace Forms_LLCART_Projeto.UserControls
                 Text = $"{mesa.Capacidade} lugares",
                 Dock = DockStyle.Top,
                 Height = 30,
-                TextAlign = ContentAlignment.MiddleCenter
+                TextAlign = ContentAlignment.MiddleCenter,
+                BackColor = Color.Transparent
             };
 
             var lblStatus = new Label
@@ -85,10 +118,24 @@ namespace Forms_LLCART_Projeto.UserControls
                 Dock = DockStyle.Bottom,
                 Height = 30,
                 TextAlign = ContentAlignment.MiddleCenter,
-                Font = new Font("Microsoft Sans Serif", 9, FontStyle.Bold)
+                Font = new Font("Microsoft Sans Serif", 9, FontStyle.Bold),
+                BackColor = mesa.Status == StatusMesa.Ocupada ? Color.Red :
+                           mesa.Status == StatusMesa.Livre ? Color.Green : Color.Orange,
+                ForeColor = Color.White
             };
 
-            panel.Controls.AddRange(new Control[] { lblStatus, lblCapacidade, lblNumero });
+            var lblDebug = new Label
+            {
+                Text = mesa.ComandaAtual ?? "Sem comanda",
+                Dock = DockStyle.Top,
+                Height = 20,
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Microsoft Sans Serif", 7),
+                ForeColor = Color.DarkBlue,
+                BackColor = Color.Transparent
+            };
+
+            panel.Controls.AddRange(new Control[] { lblStatus, lblDebug, lblCapacidade, lblNumero });
 
             panel.Click += (s, e) => AbrirMesa(mesa);
 
@@ -97,22 +144,8 @@ namespace Forms_LLCART_Projeto.UserControls
 
         private void AbrirMesa(Mesa mesa)
         {
-            if (mesa.Status == StatusMesa.Livre)
-            {
-                var formPedido = new Views.frmPedido(mesa);
-                if (formPedido.ShowDialog() == DialogResult.OK)
-                {
-                    mesaService.AtualizarStatusMesa(mesa.Id, StatusMesa.Ocupada, "ComandaAtiva");
-                    CarregarMesas(); 
-                }
-            }
-            else if (mesa.Status == StatusMesa.Ocupada)
-            {
-                MessageBox.Show($"Mesa {mesa.Numero} ocupada\nComanda: {mesa.ComandaAtual}",
-                    "Mesa Ocupada",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-            }
+            var pedidoService = new PedidoService();
+            var pedidoExistente = pedidoService.ObterPedidoPorMesa(mesa.Id);
         }
     }
 }
