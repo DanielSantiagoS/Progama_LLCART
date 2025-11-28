@@ -15,7 +15,6 @@ namespace Forms_LLCART_Projeto.Views
 
         private void ConfigurarEventos()
         {
-            // Conectar eventos dos botões
             btnMesas.Click += (s, e) => CarregarMesas();
             btnPedidos.Click += (s, e) => CarregarPedidos();
             btnCozinha.Click += (s, e) => CarregarCozinha();

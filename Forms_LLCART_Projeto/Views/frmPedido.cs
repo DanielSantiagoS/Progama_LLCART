@@ -30,7 +30,7 @@ namespace Forms_LLCART_Projeto.Views
             {
                 MesaId = mesa.Id,
                 Comanda = GerarNumeroComanda(),
-                GarcomResponsavel = "Garçom" // Depois implementamos login
+                GarcomResponsavel = "Garçom" 
             };
 
             this.Text = $"Novo Pedido - Mesa {mesa.Numero} - Comanda: {pedidoAtual.Comanda}";
@@ -48,11 +48,9 @@ namespace Forms_LLCART_Projeto.Views
             produtos = produtoService.ObterProdutos();
             var categorias = produtoService.ObterCategorias();
 
-            // Limpar controles existentes
             flowCategorias.Controls.Clear();
             flowProdutos.Controls.Clear();
 
-            // Criar botões de categorias
             foreach (var categoria in categorias)
             {
                 var btnCategoria = new Button
@@ -66,7 +64,6 @@ namespace Forms_LLCART_Projeto.Views
                 flowCategorias.Controls.Add(btnCategoria);
             }
 
-            // Carregar todos os produtos inicialmente
             FiltrarProdutosPorCategoria("Todos");
         }
 
@@ -126,7 +123,6 @@ namespace Forms_LLCART_Projeto.Views
 
             panel.Controls.AddRange(new Control[] { lblPreco, lblCategoria, lblNome });
 
-            // Evento de clique para adicionar ao pedido
             panel.Click += (s, e) => AdicionarProdutoAoPedido(produto);
 
             return panel;
@@ -134,7 +130,6 @@ namespace Forms_LLCART_Projeto.Views
 
         private void AdicionarProdutoAoPedido(Produto produto)
         {
-            // Perguntar a quantidade
             var formQuantidade = new Form
             {
                 Text = $"Quantidade - {produto.Nome}",
@@ -262,7 +257,6 @@ namespace Forms_LLCART_Projeto.Views
 
             if (result == DialogResult.Yes)
             {
-                // Aqui salvaríamos no banco de dados
                 MessageBox.Show("Pedido finalizado com sucesso!", "Sucesso",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.DialogResult = DialogResult.OK;

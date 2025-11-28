@@ -7,7 +7,7 @@ namespace Forms_LLCART_Projeto.Services
     public class MesaService
     {
         private List<Mesa> mesas;
-        private int proximoId = 7; // ← Declarado aqui
+        private int proximoId = 7;
 
         public MesaService()
         {

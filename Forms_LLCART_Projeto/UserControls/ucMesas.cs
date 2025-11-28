@@ -23,7 +23,6 @@ namespace Forms_LLCART_Projeto.UserControls
         {
             mesas = mesaService.ObterMesas();
 
-            // CORREÇÃO: Use a variável flowPanel declarada no Designer
             flowPanel.Controls.Clear();
 
             foreach (var mesa in mesas)
@@ -44,7 +43,6 @@ namespace Forms_LLCART_Projeto.UserControls
                 Cursor = Cursors.Hand
             };
 
-            // Definir cor baseada no status
             Color corStatus;
             switch (mesa.Status)
             {
@@ -64,7 +62,6 @@ namespace Forms_LLCART_Projeto.UserControls
 
             panel.BackColor = corStatus;
 
-            // Número da mesa
             var lblNumero = new Label
             {
                 Text = $"Mesa {mesa.Numero}",
@@ -74,7 +71,6 @@ namespace Forms_LLCART_Projeto.UserControls
                 Font = new Font("Microsoft Sans Serif", 12, FontStyle.Bold)
             };
 
-            // Capacidade
             var lblCapacidade = new Label
             {
                 Text = $"{mesa.Capacidade} lugares",
@@ -83,7 +79,6 @@ namespace Forms_LLCART_Projeto.UserControls
                 TextAlign = ContentAlignment.MiddleCenter
             };
 
-            // Status
             var lblStatus = new Label
             {
                 Text = mesa.Status.ToString(),
@@ -95,7 +90,6 @@ namespace Forms_LLCART_Projeto.UserControls
 
             panel.Controls.AddRange(new Control[] { lblStatus, lblCapacidade, lblNumero });
 
-            // Evento de clique
             panel.Click += (s, e) => AbrirMesa(mesa);
 
             return panel;
@@ -108,9 +102,8 @@ namespace Forms_LLCART_Projeto.UserControls
                 var formPedido = new Views.frmPedido(mesa);
                 if (formPedido.ShowDialog() == DialogResult.OK)
                 {
-                    // Atualizar status da mesa para ocupada
                     mesaService.AtualizarStatusMesa(mesa.Id, StatusMesa.Ocupada, "ComandaAtiva");
-                    CarregarMesas(); // Atualizar a visualização
+                    CarregarMesas(); 
                 }
             }
             else if (mesa.Status == StatusMesa.Ocupada)

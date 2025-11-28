@@ -61,7 +61,6 @@ namespace Forms_LLCART_Projeto.UserControls
                 Tag = mesa
             };
 
-            // Simular um pedido para a mesa (na implementação real, buscaríamos do PedidoService)
             var pedidoMock = CriarPedidoMock(mesa);
 
             var lblMesa = new Label
@@ -118,7 +117,6 @@ namespace Forms_LLCART_Projeto.UserControls
                 GarcomResponsavel = "Garçom"
             };
 
-            // Adicionar alguns itens mock
             var random = new Random();
             var produtos = new[]
             {
@@ -201,7 +199,6 @@ namespace Forms_LLCART_Projeto.UserControls
                     return;
                 }
 
-                // Simular emissão de NFC-e
                 var formaPagamento = comboPagamento.SelectedItem.ToString();
                 var mensagem = $"Pagamento confirmado!\n" +
                               $"Mesa: {mesa.Numero}\n" +
@@ -212,10 +209,9 @@ namespace Forms_LLCART_Projeto.UserControls
                 MessageBox.Show(mensagem, "Pagamento Efetuado",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                // Fechar mesa
                 mesaService.AtualizarStatusMesa(mesa.Id, StatusMesa.Livre, null);
                 formPagamento.Close();
-                CarregarMesasOcupadas(); // Atualizar lista
+                CarregarMesasOcupadas(); 
             };
 
             btnCancelar.Click += (s, e) => formPagamento.Close();

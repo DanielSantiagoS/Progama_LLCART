@@ -26,18 +26,18 @@ namespace Forms_LLCART_Projeto.UserControls
 
         private void ConfigurarDataGrid()
         {
-            // Configurar colunas do DataGridView
+           
             dataGridTopProdutos.Columns.Clear();
             dataGridTopProdutos.Columns.Add("Produto", "Produto");
             dataGridTopProdutos.Columns.Add("Quantidade", "Quantidade");
             dataGridTopProdutos.Columns.Add("ValorTotal", "Valor Total");
 
-            // Ajustar largura das colunas
+            
             dataGridTopProdutos.Columns[0].Width = 150;
             dataGridTopProdutos.Columns[1].Width = 80;
             dataGridTopProdutos.Columns[2].Width = 100;
 
-            // Configurar aparência
+            
             dataGridTopProdutos.ReadOnly = true;
             dataGridTopProdutos.AllowUserToAddRows = false;
             dataGridTopProdutos.AllowUserToDeleteRows = false;
@@ -54,7 +54,7 @@ namespace Forms_LLCART_Projeto.UserControls
 
         private void CarregarResumoDiario()
         {
-            // Simular dados de vendas do dia
+           
             var vendasDiarias = new[]
             {
                 new { Hora = "12:00", Valor = 450.50m },
@@ -78,7 +78,7 @@ namespace Forms_LLCART_Projeto.UserControls
         {
             dataGridTopProdutos.Rows.Clear();
 
-            // Simular top produtos vendidos
+           
             var topProdutos = new[]
             {
                 new { Produto = "Picanha", Quantidade = 45, Valor = 4045.50m },
@@ -109,7 +109,7 @@ namespace Forms_LLCART_Projeto.UserControls
             lblMesasOcupadas.Text = mesasOcupadas.ToString();
             lblTaxaOcupacao.Text = $"{taxaOcupacao:F1}%";
 
-            // Barra de ocupação visual
+            
             panelOcupacaoBarra.Width = (int)(panelOcupacaoBase.Width * (taxaOcupacao / 100.0));
             panelOcupacaoBarra.BackColor = taxaOcupacao > 70 ? Color.LightGreen :
                                          taxaOcupacao > 40 ? Color.LightBlue : Color.LightCoral;

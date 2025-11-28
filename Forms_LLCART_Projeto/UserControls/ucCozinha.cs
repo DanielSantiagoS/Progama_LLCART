@@ -23,7 +23,7 @@ namespace Forms_LLCART_Projeto.UserControls
         private void ConfigurarTimer()
         {
             timerAtualizacao = new Timer();
-            timerAtualizacao.Interval = 5000; // 5 segundos
+            timerAtualizacao.Interval = 5000; 
             timerAtualizacao.Tick += (s, e) => CarregarPedidos();
             timerAtualizacao.Start();
         }
@@ -39,7 +39,6 @@ namespace Forms_LLCART_Projeto.UserControls
         {
             flowPanel.Controls.Clear();
 
-            // Título da seção
             var lblTitulo = new Label
             {
                 Text = titulo,
@@ -108,14 +107,13 @@ namespace Forms_LLCART_Projeto.UserControls
 
             var lblMesa = new Label
             {
-                Text = $"Mesa: {ObterMesaDoPedido(item)}", // Precisaríamos do PedidoService retornar essa info
+                Text = $"Mesa: {ObterMesaDoPedido(item)}", 
                 Location = new Point(10, 55),
                 Size = new Size(120, 15),
                 Font = new Font("Microsoft Sans Serif", 8),
                 ForeColor = Color.DarkRed
             };
 
-            // Botões de ação
             if (item.Status == StatusItem.Novo)
             {
                 var btnIniciar = new Button
@@ -183,13 +181,11 @@ namespace Forms_LLCART_Projeto.UserControls
 
         private string ObterMesaDoPedido(ItemPedido item)
         {
-            // Mock - na implementação real, buscaríamos do PedidoService
             return "01";
         }
 
         private void AtualizarStatusItem(ItemPedido item, StatusItem novoStatus)
         {
-            // Na implementação real, usaríamos o PedidoService
             item.Status = novoStatus;
             CarregarPedidos();
             MessageBox.Show($"Status atualizado para: {novoStatus}", "Sucesso",

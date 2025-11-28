@@ -53,7 +53,6 @@ namespace Forms_LLCART_Projeto.Services
         public List<ItemPedido> ObterItensPorSetor(string setorPreparo)
         {
             var itens = new List<ItemPedido>();
-            // Aqui integraríamos com o ProdutoService para filtrar por setor
             return itens;
         }
 

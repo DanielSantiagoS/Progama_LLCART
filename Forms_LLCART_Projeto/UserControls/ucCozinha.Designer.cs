@@ -15,7 +15,6 @@
                 components.Dispose();
             }
 
-            // Adicione esta parte para limpar o timer
             if (disposing)
             {
                 timerAtualizacao?.Stop();

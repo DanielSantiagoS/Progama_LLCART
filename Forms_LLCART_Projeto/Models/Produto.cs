@@ -9,6 +9,6 @@
         public string Descricao { get; set; }
         public bool Ativo { get; set; }
         public int Estoque { get; set; }
-        public string SetorPreparo { get; set; } // Churrasco, Cozinha, Bebidas, Sobremesas
+        public string SetorPreparo { get; set; } 
     }
 }
