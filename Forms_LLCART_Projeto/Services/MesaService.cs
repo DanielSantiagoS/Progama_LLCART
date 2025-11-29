@@ -1,28 +1,46 @@
 ﻿using System.Collections.Generic;
 using Forms_LLCART_Projeto.Models;
+using Forms_LLCART_Projeto.Repositories;
 
 namespace Forms_LLCART_Projeto.Services
 {
     public class MesaService
     {
+        private readonly MesaRepo _mesaRepo;
+
+        public MesaService()
+        {
+            _mesaRepo = new MesaRepo();
+        }
+
         public List<Mesa> ObterMesas()
         {
-            return GerenciadorDados.ObterMesas();
+            return _mesaRepo.ObterTodas();
         }
 
         public Mesa ObterMesaPorId(int id)
         {
-            return GerenciadorDados.ObterMesaPorId(id);
+            return _mesaRepo.ObterPorId(id);
         }
 
-        public Mesa ObterMesaPorNumero(string numero)
+        public void CriarMesa(Mesa mesa)
         {
-            return GerenciadorDados.ObterMesaPorNumero(numero);
+            _mesaRepo.Criar(mesa);
+        }
+
+        public void AtualizarMesa(Mesa mesa)
+        {
+            _mesaRepo.Atualizar(mesa);
+        }
+
+        public void ExcluirMesa(int id)
+        {
+            _mesaRepo.Excluir(id);
         }
 
         public void AtualizarStatusMesa(int mesaId, StatusMesa status, string comanda = null)
         {
-            GerenciadorDados.AtualizarStatusMesa(mesaId, status, comanda);
+            _mesaRepo.AtualizarStatus(mesaId, status, comanda);
         }
     }
 }
