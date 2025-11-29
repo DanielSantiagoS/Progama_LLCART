@@ -143,16 +143,16 @@ namespace Forms_LLCART_Projeto.UserControls
             }
             else if (item.Status == StatusItem.Pronto)
             {
-                var lblPronto = new Label
+                var btnEntregue = new Button
                 {
-                    Text = "AGUARDANDO ENTREGA",
-                    Location = new Point(120, 35),
-                    Size = new Size(120, 40),
-                    Font = new Font("Microsoft Sans Serif", 8, FontStyle.Bold),
-                    ForeColor = Color.DarkGreen,
-                    TextAlign = ContentAlignment.MiddleCenter
+                    Text = "✅ Entregue",
+                    Location = new Point(150, 30),
+                    Size = new Size(80, 25),
+                    BackColor = Color.LightGreen,
+                    Tag = item
                 };
-                panel.Controls.Add(lblPronto);
+                btnEntregue.Click += (s, e) => AtualizarStatusItem(item, StatusItem.Entregue);
+                panel.Controls.Add(btnEntregue);
             }
 
             var lblObservacoes = new Label
@@ -173,9 +173,9 @@ namespace Forms_LLCART_Projeto.UserControls
         {
             switch (status)
             {
-                case StatusItem.Novo: return Color.LightYellow;
-                case StatusItem.EmPreparo: return Color.LightBlue;
-                case StatusItem.Pronto: return Color.LightGreen;
+                case StatusItem.Novo: return Color.Yellow;
+                case StatusItem.EmPreparo: return Color.Blue;
+                case StatusItem.Pronto: return Color.Green;
                 default: return Color.LightGray;
             }
         }
@@ -196,6 +196,12 @@ namespace Forms_LLCART_Projeto.UserControls
                 if (itemEncontrado != null)
                 {
                     pedidoService.AtualizarStatusItem(pedido.Id, item.Id, novoStatus);
+
+                    if (novoStatus == StatusItem.Entregue)
+                    {
+                        VerificarSePedidoCompleto(pedido);
+                    }
+
                     break;
                 }
             }
@@ -203,6 +209,17 @@ namespace Forms_LLCART_Projeto.UserControls
             CarregarPedidos();
             MessageBox.Show($"Status atualizado para: {novoStatus}", "Sucesso",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void VerificarSePedidoCompleto(Pedido pedido)
+        {
+            var todosEntregues = pedido.Itens.All(i => i.Status == StatusItem.Entregue);
+
+            if (todosEntregues)
+            {
+                MessageBox.Show($"🎉 TODOS os itens do pedido {pedido.Comanda} foram entregues!\n\nMesa {pedido.MesaId} pode ser liberada.",
+                    "Pedido Completo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
 

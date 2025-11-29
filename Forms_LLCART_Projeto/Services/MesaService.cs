@@ -15,6 +15,11 @@ namespace Forms_LLCART_Projeto.Services
             return GerenciadorDados.ObterMesaPorId(id);
         }
 
+        public Mesa ObterMesaPorNumero(string numero)
+        {
+            return GerenciadorDados.ObterMesaPorNumero(numero);
+        }
+
         public void AtualizarStatusMesa(int mesaId, StatusMesa status, string comanda = null)
         {
             GerenciadorDados.AtualizarStatusMesa(mesaId, status, comanda);

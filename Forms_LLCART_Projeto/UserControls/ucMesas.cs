@@ -17,50 +17,8 @@ namespace Forms_LLCART_Projeto.UserControls
             InitializeComponent();
             mesaService = new MesaService();
             CarregarMesas();
-            CriarBotaoAtualizar();
-            CarregarMesas();
         }
 
-        private void CriarBotaoAtualizar()
-        {
-            var btnAtualizar = new Button
-            {
-                Text = "🔄 Atualizar",
-                Size = new Size(100, 30),
-                Location = new Point(20, 20),
-                BackColor = Color.LightBlue,
-                Font = new Font("Microsoft Sans Serif", 9, FontStyle.Bold)
-            };
-
-            btnAtualizar.Click += (s, e) =>
-            {
-                CarregarMesas();
-                MessageBox.Show("Mesas atualizadas!", "Atualizado",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-            };
-
-            this.Controls.Add(btnAtualizar);
-
-            var flowPanel = this.Controls[0] as FlowLayoutPanel;
-            if (flowPanel != null)
-            {
-                flowPanel.Location = new Point(0, 60);
-                flowPanel.Height = this.Height - 60;
-            }
-        }
-
-        private void CarregarMesas()
-        {
-            mesas = mesaService.ObterMesas();
-
-            flowPanel.Controls.Clear();
-
-            foreach (var mesa in mesas)
-            {
-                var panelMesa = CriarPanelMesa(mesa);
-                flowPanel.Controls.Add(panelMesa);
-            }
-        }
 
         private Panel CriarPanelMesa(Mesa mesa)
         {
@@ -74,24 +32,26 @@ namespace Forms_LLCART_Projeto.UserControls
                 Tag = mesa
             };
 
+            Color corFundo;
             Color corStatus;
-            switch (mesa.Status)
+
+            if (mesa.Status == StatusMesa.Livre)
             {
-                case StatusMesa.Livre:
-                    corStatus = Color.LightGreen;
-                    break;
-                case StatusMesa.Ocupada:
-                    corStatus = Color.LightCoral;
-                    break;
-                case StatusMesa.Reservada:
-                    corStatus = Color.LightYellow;
-                    break;
-                default:
-                    corStatus = Color.LightGray;
-                    break;
+                corFundo = Color.LightGreen;
+                corStatus = Color.Green;
+            }
+            else if (mesa.Status == StatusMesa.Ocupada)
+            {
+                corFundo = Color.LightCoral;
+                corStatus = Color.Red;
+            }
+            else
+            {
+                corFundo = Color.LightYellow;
+                corStatus = Color.Orange;
             }
 
-            panel.BackColor = corStatus;
+            panel.BackColor = corFundo;
 
             var lblNumero = new Label
             {
@@ -99,8 +59,7 @@ namespace Forms_LLCART_Projeto.UserControls
                 Dock = DockStyle.Top,
                 Height = 40,
                 TextAlign = ContentAlignment.MiddleCenter,
-                Font = new Font("Microsoft Sans Serif", 12, FontStyle.Bold),
-                BackColor = Color.Transparent
+                Font = new Font("Microsoft Sans Serif", 12, FontStyle.Bold)
             };
 
             var lblCapacidade = new Label
@@ -108,44 +67,109 @@ namespace Forms_LLCART_Projeto.UserControls
                 Text = $"{mesa.Capacidade} lugares",
                 Dock = DockStyle.Top,
                 Height = 30,
-                TextAlign = ContentAlignment.MiddleCenter,
-                BackColor = Color.Transparent
+                TextAlign = ContentAlignment.MiddleCenter
             };
 
             var lblStatus = new Label
             {
-                Text = mesa.Status.ToString(),
+                Text = mesa.Status.ToString().ToUpper(),
                 Dock = DockStyle.Bottom,
                 Height = 30,
                 TextAlign = ContentAlignment.MiddleCenter,
                 Font = new Font("Microsoft Sans Serif", 9, FontStyle.Bold),
-                BackColor = mesa.Status == StatusMesa.Ocupada ? Color.Red :
-                           mesa.Status == StatusMesa.Livre ? Color.Green : Color.Orange,
+                BackColor = corStatus,
                 ForeColor = Color.White
             };
 
-            var lblDebug = new Label
+            var lblComanda = new Label
             {
                 Text = mesa.ComandaAtual ?? "Sem comanda",
                 Dock = DockStyle.Top,
                 Height = 20,
                 TextAlign = ContentAlignment.MiddleCenter,
                 Font = new Font("Microsoft Sans Serif", 7),
-                ForeColor = Color.DarkBlue,
-                BackColor = Color.Transparent
+                ForeColor = Color.DarkBlue
             };
 
-            panel.Controls.AddRange(new Control[] { lblStatus, lblDebug, lblCapacidade, lblNumero });
+            panel.Controls.AddRange(new Control[] { lblStatus, lblComanda, lblCapacidade, lblNumero });
 
             panel.Click += (s, e) => AbrirMesa(mesa);
+            lblNumero.Click += (s, e) => AbrirMesa(mesa);
+            lblCapacidade.Click += (s, e) => AbrirMesa(mesa);
+            lblStatus.Click += (s, e) => AbrirMesa(mesa);
+            lblComanda.Click += (s, e) => AbrirMesa(mesa);
 
             return panel;
         }
 
         private void AbrirMesa(Mesa mesa)
         {
-            var pedidoService = new PedidoService();
-            var pedidoExistente = pedidoService.ObterPedidoPorMesa(mesa.Id);
+            Console.WriteLine($"Clicou na mesa {mesa.Numero} - Status: {mesa.Status}");
+
+            if (mesa.Status == StatusMesa.Livre)
+            {
+                var formPedido = new Views.frmPedido(mesa);
+                var resultado = formPedido.ShowDialog();
+
+                if (resultado == DialogResult.OK)
+                {
+                    CarregarMesas();
+
+                    var pedidoService = new PedidoService();
+                    var pedidoSalvo = pedidoService.ObterPedidoPorMesa(mesa.Id);
+
+                    if (pedidoSalvo != null)
+                    {
+                        MessageBox.Show($"✅ PEDIDO CRIADO!\n\nMesa: {mesa.Numero}\nComanda: {pedidoSalvo.Comanda}\nItens: {pedidoSalvo.Itens.Count}",
+                            "Pedido Criado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
+            else if (mesa.Status == StatusMesa.Ocupada)
+            {
+                var pedidoService = new PedidoService();
+                var pedidoExistente = pedidoService.ObterPedidoPorMesa(mesa.Id);
+
+                if (pedidoExistente != null)
+                {
+                    var formPedido = new Views.frmPedido(mesa, pedidoExistente);
+                    var resultado = formPedido.ShowDialog();
+
+                    if (resultado == DialogResult.OK)
+                    {
+                        CarregarMesas();
+                        MessageBox.Show($"✅ Pedido atualizado!\nMesa: {mesa.Numero}",
+                            "Atualizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show($"❌ Mesa {mesa.Numero} está marcada como ocupada mas não encontramos pedido.\n\nLiberando mesa...",
+                        "Pedido Não Encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                    mesaService.AtualizarStatusMesa(mesa.Id, StatusMesa.Livre, null);
+                    CarregarMesas();
+                }
+            }
+        }
+
+        private void CarregarMesas()
+        {
+            mesas = mesaService.ObterMesas();
+
+            foreach (var mesa in mesas)
+            {
+                Console.WriteLine($"DEBUG Mesa {mesa.Numero}: Status={mesa.Status}, Comanda={mesa.ComandaAtual}");
+            }
+
+            var flowPanel = (FlowLayoutPanel)this.Controls[0];
+            flowPanel.Controls.Clear();
+
+            foreach (var mesa in mesas)
+            {
+                var panelMesa = CriarPanelMesa(mesa);
+                flowPanel.Controls.Add(panelMesa);
+            }
         }
     }
 }

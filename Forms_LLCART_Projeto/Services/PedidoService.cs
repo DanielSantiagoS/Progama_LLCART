@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Forms_LLCART_Projeto.Models;
 
@@ -19,8 +18,7 @@ namespace Forms_LLCART_Projeto.Services
 
         public Pedido ObterPedidoPorId(int id)
         {
-            var pedidosAtivos = ObterPedidosAtivos();
-            return pedidosAtivos.FirstOrDefault(p => p.Id == id);
+            return GerenciadorDados.ObterPedidoPorId(id);
         }
 
         public List<Pedido> ObterPedidosAtivos()
@@ -28,30 +26,24 @@ namespace Forms_LLCART_Projeto.Services
             return GerenciadorDados.ObterPedidosAtivos();
         }
 
+        public void FecharPedido(int pedidoId)
+        {
+            GerenciadorDados.FecharPedido(pedidoId);
+        }
+
+        public List<Pedido> ObterPedidosFechados()
+        {
+            return GerenciadorDados.ObterPedidosFechados();
+        }
+
         public List<ItemPedido> ObterItensPorStatus(StatusItem status)
         {
-            var pedidosAtivos = ObterPedidosAtivos();
-
-            var itens = new List<ItemPedido>();
-            foreach (var pedido in pedidosAtivos)
-            {
-                itens.AddRange(pedido.Itens.Where(i => i.Status == status));
-            }
-            return itens.OrderBy(i => i.DataHora).ToList();
+            return GerenciadorDados.ObterItensPorStatus(status);
         }
 
         public void AtualizarStatusItem(int pedidoId, int itemId, StatusItem novoStatus)
         {
-            var pedido = ObterPedidoPorId(pedidoId);
-            var item = pedido?.Itens.FirstOrDefault(i => i.Id == itemId);
-
-            if (item != null)
-            {
-                item.Status = novoStatus;
-                item.DataHora = DateTime.Now;
-
-                SalvarPedido(pedido);
-            }
+            GerenciadorDados.AtualizarStatusItem(pedidoId, itemId, novoStatus);
         }
     }
 }

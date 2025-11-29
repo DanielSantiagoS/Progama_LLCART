@@ -199,26 +199,45 @@ namespace Forms_LLCART_Projeto.UserControls
                     return;
                 }
 
-                var formaPagamento = comboPagamento.SelectedItem.ToString();
-                var mensagem = $"Pagamento confirmado!\n" +
-                              $"Mesa: {mesa.Numero}\n" +
-                              $"Total: R$ {pedido.Total:F2}\n" +
-                              $"Forma: {formaPagamento}\n" +
-                              $"NFC-e emitida com sucesso!";
+                MessageBox.Show($"🔍 DEBUG: Iniciando fechamento\nPedido ID: {pedido.Id}\nMesa: {mesa.Numero}\nComanda: {pedido.Comanda}",
+                    "DEBUG - Antes de Fechar");
 
-                MessageBox.Show(mensagem, "Pagamento Efetuado",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                try
+                {
+                    var pedidoService = new PedidoService();
+                    pedidoService.FecharPedido(pedido.Id);
 
-                mesaService.AtualizarStatusMesa(mesa.Id, StatusMesa.Livre, null);
-                formPagamento.Close();
-                CarregarMesasOcupadas(); 
+                    var mesaService = new MesaService();
+                    var mesaAtualizada = mesaService.ObterMesaPorId(mesa.Id);
+
+                    MessageBox.Show($"🔍 DEBUG: Após fechar pedido\nMesa Status: {mesaAtualizada.Status}\nComanda: {mesaAtualizada.ComandaAtual ?? "Nenhuma"}",
+                        "DEBUG - Após Fechar");
+
+                    var formaPagamento = comboPagamento.SelectedItem.ToString();
+                    var mensagem = $"✅ Pagamento confirmado!\n" +
+                                  $"Mesa: {mesa.Numero}\n" +
+                                  $"Total: R$ {pedido.Total:F2}\n" +
+                                  $"Forma: {formaPagamento}\n" +
+                                  $"NFC-e emitida com sucesso!";
+
+                    MessageBox.Show(mensagem, "Pagamento Efetuado",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    formPagamento.Close();
+                    CarregarMesasOcupadas(); 
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"❌ Erro ao fechar conta: {ex.Message}", "Erro",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             };
 
             btnCancelar.Click += (s, e) => formPagamento.Close();
 
             formPagamento.Controls.AddRange(new Control[]
             {
-                lblTotal, lblFormaPagamento, comboPagamento, btnConfirmar, btnCancelar
+        lblTotal, lblFormaPagamento, comboPagamento, btnConfirmar, btnCancelar
             });
 
             formPagamento.ShowDialog();

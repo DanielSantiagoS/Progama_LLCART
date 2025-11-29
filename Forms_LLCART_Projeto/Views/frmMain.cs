@@ -23,6 +23,8 @@ namespace Forms_LLCART_Projeto.Views
             btnCozinha.Click += (s, e) => CarregarCozinha();
             btnCaixa.Click += (s, e) => CarregarCaixa();
             btnRelatorios.Click += (s, e) => CarregarRelatorios();
+
+           
         }
 
         private void CarregarDashboard()
@@ -52,8 +54,6 @@ namespace Forms_LLCART_Projeto.Views
         private void CarregarPedidos()
         {
             panelContainer.Controls.Clear();
-
-            
 
             var panel = new Panel
             {

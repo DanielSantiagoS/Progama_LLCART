@@ -11,6 +11,7 @@ namespace Forms_LLCART_Projeto.Services
         private static List<Pedido> _pedidos = new List<Pedido>();
         private static int _proximoIdMesa = 1;
         private static int _proximoIdPedido = 1;
+        private static int _proximoItemId = 1;
 
         public static List<Mesa> ObterMesas()
         {
@@ -22,6 +23,47 @@ namespace Forms_LLCART_Projeto.Services
         public static Mesa ObterMesaPorId(int id)
         {
             return _mesas.FirstOrDefault(m => m.Id == id);
+        }
+
+        public static Mesa ObterMesaPorNumero(string numero)
+        {
+            return _mesas.FirstOrDefault(m => m.Numero == numero);
+        }
+
+        public static void FecharPedido(int pedidoId)
+        {
+            Console.WriteLine($"🔍 DEBUG FecharPedido: Procurando pedido ID={pedidoId}");
+
+            var pedido = ObterPedidoPorId(pedidoId);
+            if (pedido != null)
+            {
+                Console.WriteLine($"🔍 DEBUG: Pedido encontrado - Comanda: {pedido.Comanda}, Mesa: {pedido.MesaId}");
+
+                pedido.Status = StatusPedido.Fechado;
+                pedido.DataFechamento = DateTime.Now;
+
+                AtualizarStatusMesa(pedido.MesaId, StatusMesa.Livre, null);
+
+                Console.WriteLine($"✅ PEDIDO FECHADO: {pedido.Comanda} - Mesa {pedido.MesaId} liberada");
+            }
+            else
+            {
+                Console.WriteLine($"❌ DEBUG: Pedido ID {pedidoId} NÃO ENCONTRADO para fechar!");
+
+                var pedidoPorMesa = _pedidos.FirstOrDefault(p => p.MesaId == pedidoId && p.Status == StatusPedido.Aberto);
+                if (pedidoPorMesa != null)
+                {
+                    Console.WriteLine($"🔍 DEBUG: Encontrado pedido pela Mesa ID {pedidoId}");
+                    pedidoPorMesa.Status = StatusPedido.Fechado;
+                    pedidoPorMesa.DataFechamento = DateTime.Now;
+                    AtualizarStatusMesa(pedidoPorMesa.MesaId, StatusMesa.Livre, null);
+                }
+            }
+        }
+
+        public static List<Pedido> ObterPedidosFechados()
+        {
+            return _pedidos.Where(p => p.Status == StatusPedido.Fechado).ToList();
         }
 
         public static void AtualizarStatusMesa(int mesaId, StatusMesa status, string comanda = null)
@@ -37,13 +79,22 @@ namespace Forms_LLCART_Projeto.Services
 
         public static void SalvarPedido(Pedido pedido)
         {
-            if (pedido.Id == 0)
+            Console.WriteLine($"🔍 DEBUG SalvarPedido: ID={pedido.Id}, Mesa={pedido.MesaId}, Comanda={pedido.Comanda}");
+
+            if (pedido.Id == 0)   
             {
                 pedido.Id = _proximoIdPedido++;
+                Console.WriteLine($"🔍 DEBUG: Novo pedido - ID atribuído: {pedido.Id}");
+
+                foreach (var item in pedido.Itens)
+                {
+                    item.Id = _proximoItemId++;
+                }
                 _pedidos.Add(pedido);
             }
-            else
+            else   
             {
+                Console.WriteLine($"🔍 DEBUG: Atualizando pedido existente ID: {pedido.Id}");
                 var existente = _pedidos.FirstOrDefault(p => p.Id == pedido.Id);
                 if (existente != null)
                     _pedidos.Remove(existente);
@@ -51,6 +102,7 @@ namespace Forms_LLCART_Projeto.Services
             }
 
             AtualizarStatusMesa(pedido.MesaId, StatusMesa.Ocupada, pedido.Comanda);
+            Console.WriteLine($"🔍 DEBUG: Mesa {pedido.MesaId} atualizada para OCUPADA");
         }
 
         public static Pedido ObterPedidoPorMesa(int mesaId)
@@ -58,9 +110,38 @@ namespace Forms_LLCART_Projeto.Services
             return _pedidos.FirstOrDefault(p => p.MesaId == mesaId && p.Status == StatusPedido.Aberto);
         }
 
+        public static Pedido ObterPedidoPorId(int id)
+        {
+            return _pedidos.FirstOrDefault(p => p.Id == id);
+        }
+
         public static List<Pedido> ObterPedidosAtivos()
         {
             return _pedidos.Where(p => p.Status == StatusPedido.Aberto).ToList();
+        }
+
+        public static List<ItemPedido> ObterItensPorStatus(StatusItem status)
+        {
+            var pedidosAtivos = ObterPedidosAtivos();
+            var itens = new List<ItemPedido>();
+
+            foreach (var pedido in pedidosAtivos)
+            {
+                itens.AddRange(pedido.Itens.Where(i => i.Status == status));
+            }
+            return itens.OrderBy(i => i.DataHora).ToList();
+        }
+
+        public static void AtualizarStatusItem(int pedidoId, int itemId, StatusItem novoStatus)
+        {
+            var pedido = ObterPedidoPorId(pedidoId);
+            var item = pedido?.Itens.FirstOrDefault(i => i.Id == itemId);
+
+            if (item != null)
+            {
+                item.Status = novoStatus;
+                item.DataHora = DateTime.Now;
+            }
         }
 
         private static void InicializarDados()
@@ -81,20 +162,27 @@ namespace Forms_LLCART_Projeto.Services
                 Id = 1,
                 MesaId = 2,
                 Comanda = "COMANDA001",
-                GarcomResponsavel = "João"
+                GarcomResponsavel = "João",
+                Status = StatusPedido.Aberto
             };
+
             pedidoTeste.Itens.Add(new ItemPedido
             {
                 Id = 1,
                 NomeProduto = "Picanha",
                 Quantidade = 2,
                 PrecoUnitario = 89.90m,
-                Status = StatusItem.Novo
+                Status = StatusItem.Novo,
+                DataHora = DateTime.Now
             });
+
             _pedidos.Add(pedidoTeste);
             _proximoIdPedido = 2;
+            _proximoItemId = 2;
 
             AtualizarStatusMesa(2, StatusMesa.Ocupada, "COMANDA001");
+
+
         }
     }
 }

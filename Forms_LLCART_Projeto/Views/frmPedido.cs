@@ -20,11 +20,12 @@ namespace Forms_LLCART_Projeto.Views
             InitializeComponent();
             mesa = mesaSelecionada;
             produtoService = new ProdutoService();
-            InicializarPedido();
-            CarregarProdutos();
 
             btnFinalizarPedido.Click += btnFinalizarPedido_Click;
             btnCancelar.Click += btnCancelar_Click;
+
+            InicializarPedido();
+            CarregarProdutos();
         }
 
         public frmPedido(Mesa mesaSelecionada, Pedido pedidoExistente)
@@ -34,12 +35,12 @@ namespace Forms_LLCART_Projeto.Views
             pedidoAtual = pedidoExistente;
             produtoService = new ProdutoService();
 
+            btnFinalizarPedido.Click += btnFinalizarPedido_Click;
+            btnCancelar.Click += btnCancelar_Click;
+
             this.Text = $"Editando Pedido - Mesa {mesa.Numero} - Comanda: {pedidoAtual.Comanda}";
             lblComanda.Text = $"Comanda: {pedidoAtual.Comanda}";
             lblMesa.Text = $"Mesa: {mesa.Numero}";
-
-            btnFinalizarPedido.Click += btnFinalizarPedido_Click;
-            btnCancelar.Click += btnCancelar_Click;
 
             CarregarProdutos();
             AtualizarListaPedidos(); 
@@ -190,9 +191,6 @@ namespace Forms_LLCART_Projeto.Views
 
         private void AdicionarProdutoAoPedido(Produto produto)
         {
-            MessageBox.Show($"Produto selecionado: {produto.Nome}\nPreço: R$ {produto.Preco:F2}",
-                "Produto Selecionado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
             var formQuantidade = new Form
             {
                 Text = $"Quantidade - {produto.Nome}",
@@ -380,8 +378,47 @@ namespace Forms_LLCART_Projeto.Views
 
         private void btnFinalizarPedido_Click(object sender, EventArgs e)
         {
-            var pedidoService = new PedidoService();
-            pedidoService.SalvarPedido(pedidoAtual);
+            if (pedidoAtual.Itens.Count == 0)
+            {
+                MessageBox.Show("❌ Adicione itens ao pedido antes de finalizar!", "Pedido Vazio",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var resumo = $"**RESUMO DO PEDIDO**\n\n";
+            resumo += $"Mesa: {mesa.Numero}\n";
+            resumo += $"Comanda: {pedidoAtual.Comanda}\n";
+            resumo += $"Itens: {pedidoAtual.Itens.Count}\n";
+            resumo += $"Total: R$ {pedidoAtual.Total:F2}\n\n";
+            resumo += "Confirmar finalização do pedido?";
+
+            var result = MessageBox.Show(resumo, "✅ CONFIRMAR PEDIDO",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                try
+                {
+                    var pedidoService = new PedidoService();
+                    pedidoService.SalvarPedido(pedidoAtual);
+
+                    MessageBox.Show($"🎉 PEDIDO FINALIZADO COM SUCESSO!\n\n" +
+                                  $"Mesa: {mesa.Numero}\n" +
+                                  $"Comanda: {pedidoAtual.Comanda}\n" +
+                                  $"Itens: {pedidoAtual.Itens.Count}\n" +
+                                  $"Total: R$ {pedidoAtual.Total:F2}",
+                                  "✅ SUCESSO",
+                                  MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"❌ Erro ao salvar pedido: {ex.Message}", "ERRO",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
