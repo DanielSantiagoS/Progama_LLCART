@@ -131,3 +131,4 @@ C:\Users\ds864\OneDrive\Desktop\LLCART_CRUD\Progama_LLCART\Forms_LLCART_Projeto\
 C:\Users\ds864\OneDrive\Desktop\LLCART_CRUD\Progama_LLCART\Forms_LLCART_Projeto\obj\Debug\Forms_LL.B4ABE7F5.Up2Date
 C:\Users\ds864\OneDrive\Desktop\LLCART_CRUD\Progama_LLCART\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.exe
 C:\Users\ds864\OneDrive\Desktop\LLCART_CRUD\Progama_LLCART\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.pdb
+C:\Users\mathe\Downloads\Progama_LLCART\Forms_LLCART_Projeto\obj\Debug\Forms_LLCART_Projeto.Views.frmMain.resources
