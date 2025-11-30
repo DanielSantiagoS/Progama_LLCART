@@ -1,0 +1,77 @@
+CREATE DATABASE churrascariadb;
+USE churrascariadb;
+
+CREATE TABLE Mesas (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Numero VARCHAR(10) NOT NULL UNIQUE,
+    Capacidade INT NOT NULL,
+    Status INT NOT NULL DEFAULT 0,
+    ComandaAtual VARCHAR(50) NULL,
+    DataCriacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Produtos (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(100) NOT NULL,
+    Categoria VARCHAR(50) NOT NULL,
+    Preco DECIMAL(10,2) NOT NULL,
+    Descricao VARCHAR(500) NULL,
+    Ativo TINYINT(1) NOT NULL DEFAULT 1,
+    Estoque INT NOT NULL DEFAULT 0,
+    SetorPreparo VARCHAR(50) NOT NULL,
+    DataCriacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Pedidos (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    MesaId INT NOT NULL,
+    Comanda VARCHAR(50) NOT NULL,
+    DataAbertura TIMESTAMP NOT NULL,
+    DataFechamento TIMESTAMP NULL,
+    Status INT NOT NULL DEFAULT 0,
+    Observacoes VARCHAR(1000) NULL,
+    GarcomResponsavel VARCHAR(100) NOT NULL,
+    FOREIGN KEY (MesaId) REFERENCES Mesas(Id)
+);
+
+CREATE TABLE ItensPedido (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    PedidoId INT NOT NULL,
+    ProdutoId INT NOT NULL,
+    NomeProduto VARCHAR(100) NOT NULL,
+    Quantidade INT NOT NULL,
+    PrecoUnitario DECIMAL(10,2) NOT NULL,
+    Observacoes VARCHAR(500) NULL,
+    Status INT NOT NULL DEFAULT 0,
+    DataHora TIMESTAMP NOT NULL,
+    UsuarioResponsavel VARCHAR(100) NOT NULL,
+    FOREIGN KEY (PedidoId) REFERENCES Pedidos(Id),
+    FOREIGN KEY (ProdutoId) REFERENCES Produtos(Id)
+);
+
+CREATE TABLE LogsAtividades (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Usuario VARCHAR(100) NOT NULL,
+    Acao VARCHAR(500) NOT NULL,
+    DataHora TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    Detalhes VARCHAR(1000) NULL
+);
+
+INSERT INTO Mesas (Numero, Capacidade) VALUES
+('01', 4), ('02', 6), ('03', 2), ('04', 8), ('05', 4), ('06', 6);
+
+INSERT INTO Produtos (Nome, Categoria, Preco, SetorPreparo, Estoque) VALUES
+('Picanha', 'Carnes', 89.90, 'Churrasco', 100),
+('Costela', 'Carnes', 79.90, 'Churrasco', 100),
+('Fraldinha', 'Carnes', 69.90, 'Churrasco', 100),
+('Coração', 'Carnes', 45.90, 'Churrasco', 100),
+('Coca-Cola 2L', 'Bebidas', 12.90, 'Bebidas', 100),
+('Suco Natural', 'Bebidas', 8.90, 'Bebidas', 100),
+('Cerveja Heineken', 'Bebidas', 9.90, 'Bebidas', 100),
+('Arroz', 'Acompanhamentos', 15.90, 'Cozinha', 100),
+('Farofa', 'Acompanhamentos', 12.90, 'Cozinha', 100),
+('Vinagrete', 'Acompanhamentos', 10.90, 'Cozinha', 100),
+('Pudim', 'Sobremesas', 18.90, 'Sobremesas', 100),
+('Sorvete', 'Sobremesas', 14.90, 'Sobremesas', 100);
+
+select * from pedidos;
