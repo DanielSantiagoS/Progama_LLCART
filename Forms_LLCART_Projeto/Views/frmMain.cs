@@ -14,6 +14,7 @@ namespace Forms_LLCART_Projeto.Views
             InitializeComponent();
             ConfigurarEventos();
             CarregarDashboard();
+            this.Icon = new Icon("C:\\Users\\mathe\\Downloads\\Progama_LLCART\\imagens\\logoofc.ico");
         }
 
         private void ConfigurarEventos()
@@ -282,6 +283,11 @@ namespace Forms_LLCART_Projeto.Views
             {
                 CarregarMesas();
             }
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
