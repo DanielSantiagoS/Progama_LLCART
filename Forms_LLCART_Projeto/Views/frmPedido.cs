@@ -106,15 +106,15 @@ namespace Forms_LLCART_Projeto.Views
             switch (categoria)
             {
                 case "Carnes":
-                    return "🥩";
+                    return "";
                 case "Bebidas":
-                    return "🥤";
+                    return "";
                 case "Acompanhamentos":
-                    return "🍚";
+                    return "";
                 case "Sobremesas":
-                    return "🍮";
+                    return "";
                 default:
-                    return "📦";
+                    return "";
             }
         }
 
@@ -236,7 +236,7 @@ namespace Forms_LLCART_Projeto.Views
 
             var btnConfirmar = new Button
             {
-                Text = "✅ Adicionar",
+                Text = " Adicionar",
                 Location = new Point(50, 120),
                 Size = new Size(90, 35),
                 BackColor = Color.LightGreen,
@@ -245,7 +245,7 @@ namespace Forms_LLCART_Projeto.Views
 
             var btnCancelarQuant = new Button
             {
-                Text = "❌ Cancelar",
+                Text = " Cancelar",
                 Location = new Point(150, 120),
                 Size = new Size(90, 35),
                 BackColor = Color.LightCoral,
@@ -269,7 +269,7 @@ namespace Forms_LLCART_Projeto.Views
                 pedidoAtual.Itens.Add(item);
                 AtualizarListaPedidos();
 
-                MessageBox.Show($"✅ {item.Quantidade}x {item.NomeProduto} adicionado!\nSubtotal: R$ {item.Subtotal:F2}",
+                MessageBox.Show($" {item.Quantidade}x {item.NomeProduto} adicionado!\nSubtotal: R$ {item.Subtotal:F2}",
                     "Item Adicionado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 formQuantidade.Close();
@@ -350,7 +350,7 @@ namespace Forms_LLCART_Projeto.Views
 
             var btnRemover = new Button
             {
-                Text = "🗑️ Remover",
+                Text = "🗑 Remover",
                 Location = new Point(300, 20),
                 Size = new Size(40, 30),
                 BackColor = Color.LightCoral,
@@ -380,7 +380,7 @@ namespace Forms_LLCART_Projeto.Views
         {
             if (pedidoAtual.Itens.Count == 0)
             {
-                MessageBox.Show("❌ Adicione itens ao pedido antes de finalizar!", "Pedido Vazio",
+                MessageBox.Show(" Adicione itens ao pedido antes de finalizar!", "Pedido Vazio",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
@@ -392,7 +392,7 @@ namespace Forms_LLCART_Projeto.Views
             resumo += $"Total: R$ {pedidoAtual.Total:F2}\n\n";
             resumo += "Confirmar finalização do pedido?";
 
-            var result = MessageBox.Show(resumo, "✅ CONFIRMAR PEDIDO",
+            var result = MessageBox.Show(resumo, " CONFIRMAR PEDIDO",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
@@ -402,12 +402,12 @@ namespace Forms_LLCART_Projeto.Views
                     var pedidoService = new PedidoService();
                     pedidoService.SalvarPedido(pedidoAtual);
 
-                    MessageBox.Show($"🎉 PEDIDO FINALIZADO COM SUCESSO!\n\n" +
+                    MessageBox.Show($" PEDIDO FINALIZADO COM SUCESSO!\n\n" +
                                   $"Mesa: {mesa.Numero}\n" +
                                   $"Comanda: {pedidoAtual.Comanda}\n" +
                                   $"Itens: {pedidoAtual.Itens.Count}\n" +
                                   $"Total: R$ {pedidoAtual.Total:F2}",
-                                  "✅ SUCESSO",
+                                  " SUCESSO",
                                   MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     this.DialogResult = DialogResult.OK;
@@ -415,7 +415,7 @@ namespace Forms_LLCART_Projeto.Views
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"❌ Erro ao salvar pedido: {ex.Message}", "ERRO",
+                    MessageBox.Show($" Erro ao salvar pedido: {ex.Message}", "ERRO",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -426,7 +426,7 @@ namespace Forms_LLCART_Projeto.Views
             if (pedidoAtual.Itens.Count > 0)
             {
                 var result = MessageBox.Show("Tem certeza que deseja cancelar o pedido?\nTodos os itens serão perdidos.",
-                    "❌ Cancelar Pedido", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    " Cancelar Pedido", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (result != DialogResult.Yes)
                     return;

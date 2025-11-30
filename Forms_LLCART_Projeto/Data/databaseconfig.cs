@@ -9,7 +9,7 @@ namespace Forms_LLCART_Projeto.Data
         private static string _server = "localhost";
         private static string _database = "churrascariadb";
         private static string _userId = "root";
-        private static string _password = "";
+        private static string _password = "teteu 110607";
 
         public static string ConnectionString
         {

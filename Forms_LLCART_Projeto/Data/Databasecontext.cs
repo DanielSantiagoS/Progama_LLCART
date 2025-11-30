@@ -15,10 +15,25 @@ namespace Forms_LLCART_Projeto.Data
                 string connectionString = DatabaseConfig.ConnectionString;
                 _connection = new MySqlConnection(connectionString);
                 _connection.Open();
+
+                Console.WriteLine($"✅ Conectado ao banco: {DatabaseConfig.ConnectionString.Split(';')[1]}");
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Erro ao conectar com o banco: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                string erro = $"{DateTime.Now:dd/MM/yyyy HH:mm:ss} - Erro de conexão: {ex.Message}\n";
+                System.IO.File.AppendAllText("log_erros.txt", erro);
+
+                MessageBox.Show(
+                    $"❌ Não foi possível conectar ao banco de dados.\n\n" +
+                    $"Verifique:\n" +
+                    $"• Servidor MySQL está rodando\n" +
+                    $"• Credenciais corretas\n" +
+                    $"• Database 'churrascariadb' existe\n\n" +
+                    $"Detalhes: {ex.Message}",
+                    "Erro de Conexão",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
                 throw;
             }
         }
@@ -32,6 +47,8 @@ namespace Forms_LLCART_Projeto.Data
         {
             _connection?.Close();
             _connection?.Dispose();
+
+            Console.WriteLine("✅ Conexão com banco fechada");
         }
 
         public static bool TestarConexao()
@@ -42,11 +59,17 @@ namespace Forms_LLCART_Projeto.Data
                 {
                     var command = new MySqlCommand("SELECT 1", context.GetConnection());
                     command.ExecuteScalar();
+
+                    Console.WriteLine("✅ Teste de conexão com banco: OK");
                     return true;
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                string erro = $"{DateTime.Now:dd/MM/yyyy HH:mm:ss} - Teste conexão falhou: {ex.Message}\n";
+                System.IO.File.AppendAllText("log_erros.txt", erro);
+
+                Console.WriteLine($"❌ Teste de conexão com banco: FALHOU - {ex.Message}");
                 return false;
             }
         }
