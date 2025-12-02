@@ -7,10 +7,10 @@ using Forms_LLCART_Projeto.Services;
 
 namespace Forms_LLCART_Projeto.UserControls
 {
-    public partial class ucMesas : UserControl
+    public partial class ucMesas : UserControl // herda tudo de "UserControls"
     {
-        private MesaService mesaService;
-        private List<Mesa> mesas;
+        private MesaService mesaService; // cria um Service para as operações das mesas
+        private List<Mesa> mesas; // cria lista (array/vetor) chamada "mesas"
 
         public ucMesas()
         {
@@ -19,18 +19,20 @@ namespace Forms_LLCART_Projeto.UserControls
             CarregarMesas();
         }
 
-        private Panel CriarPanelMesa(Mesa mesa)
+        private Panel CriarPanelMesa(Mesa mesa) // cria o container principal
         {
-            var panel = new Panel
+            var panel = new Panel // cria novo painel
             {
-                Width = 150,
-                Height = 150,
-                Margin = new Padding(10),
-                BorderStyle = BorderStyle.FixedSingle,
-                Cursor = Cursors.Hand,
-                Tag = mesa
+                Width = 150, // largura 
+                Height = 150, // altura
+                Margin = new Padding(10), // margem
+                BorderStyle = BorderStyle.FixedSingle, // estilo das bordas
+                Cursor = Cursors.Hand, // o cursor muda, vira uma mãozinha para indicar que é clicável
+                Tag = mesa // armazena este objeto no controle (bem importante)
             };
 
+
+            // cria variáveis do tipo Color para mudar a cor das caixinhas conforme o status dela
             Color corFundo;
             Color corStatus;
 
@@ -115,9 +117,9 @@ namespace Forms_LLCART_Projeto.UserControls
         {
             var result = MessageBox.Show(
                 $"Tem certeza que deseja liberar a Mesa {mesa.Numero}?\n\n" +
-                $"Comanda atual: {mesa.ComandaAtual ?? "Nenhuma"}\n" +
+                $"Comanda atual: {mesa.ComandaAtual ?? "Nenhuma"}\n" + // ?? é um operador de coalescência, se o valor não nulo, retorna "mesa. COmandaAtual. Se for nulo, retorna "Nenhuma"."
                 $"Esta ação irá fechar qualquer pedido em aberto.",
-                " Liberar Mesa",
+                "Liberar Mesa",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question
             );
