@@ -1,174 +1,178 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\",
+  "WorkspaceRootPath": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\services\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\services\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\repositories - acesso a dados\\produtorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\repositories - acesso a dados\\produtorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\services - l\u00F3gica\\gerenciadordados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\services - l\u00F3gica\\gerenciadordados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\repositories - acesso a dados\\mesarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\repositories - acesso a dados\\mesarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\mathe\\downloads\\progama_llcart\\forms_llcart_projeto\\views\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\models - entidades do sistema\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\models - entidades do sistema\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\views\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\models - entidades do sistema\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\models - entidades do sistema\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\models - entidades do sistema\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\models - entidades do sistema\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\ucmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\ucmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\services\\gerenciadordados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\services\\gerenciadordados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\data - conex\u00E3o com banco\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\data - conex\u00E3o com banco\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\uccaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\uccaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\data - conex\u00E3o com banco\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\data - conex\u00E3o com banco\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\uccaixa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\uccaixa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\uccaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\uccaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\uccozinha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\uccozinha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\uccaixa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\uccaixa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\ucmesas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\ucmesas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\uccozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\uccozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\ucrelatorios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\ucrelatorios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\ucrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\ucrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\ucrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\ucrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\ucrelatorios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\ucrelatorios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\ucrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\ucrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\uccaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\uccaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\models\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\models\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\data\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\data\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\repositories\\pedidorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\repositories\\pedidorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\repositories\\mesarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\repositories\\mesarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\repositories\\produtorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\repositories\\produtorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\views\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\views\\frmpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views\\frmpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\ucmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\ucmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\services - l\u00F3gica\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\services - l\u00F3gica\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\repositories - acesso a dados\\pedidorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\repositories - acesso a dados\\pedidorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\ucmesas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\ucmesas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\uccozinha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\uccozinha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\uccaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\uccaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\views - formul\u00E1rios\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views - formul\u00E1rios\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\services - l\u00F3gica\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\services - l\u00F3gica\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\views - formul\u00E1rios\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views - formul\u00E1rios\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\services - l\u00F3gica\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\services - l\u00F3gica\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\ucrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\ucrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\views - formul\u00E1rios\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views - formul\u00E1rios\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\views - formul\u00E1rios\\frmpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views - formul\u00E1rios\\frmpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\views\\frmpedido.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views\\frmpedido.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\views - formul\u00E1rios\\frmpedido.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views - formul\u00E1rios\\frmpedido.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\uccozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\uccozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\uccozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\uccozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\uccozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\uccozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\views\\frmpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views\\frmpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\views - formul\u00E1rios\\frmpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\views - formul\u00E1rios\\frmpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|C:\\Users\\mathe\\Downloads\\Progama_LLCART\\forms_llcart_projeto\\usercontrols\\ucmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols\\ucmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|c:\\users\\lab1058\\downloads\\progama_llcart\\forms_llcart_projeto\\usercontrols - interface\\ucmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50584E1B-1E17-4017-A7EF-0A2A0ABFDB6A}|Forms_LLCART_Projeto\\Forms_LLCART_Projeto.csproj|solutionrelative:forms_llcart_projeto\\usercontrols - interface\\ucmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 21,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "MesaService.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services\\MesaService.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Services\\MesaService.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services\\MesaService.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Services\\MesaService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services - L\u00F3gica\\MesaService.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Services - L\u00F3gica\\MesaService.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services - L\u00F3gica\\MesaService.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Services - L\u00F3gica\\MesaService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:24:54.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "PedidoService.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services\\PedidoService.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Services\\PedidoService.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services\\PedidoService.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Services\\PedidoService.cs",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services - L\u00F3gica\\PedidoService.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Services - L\u00F3gica\\PedidoService.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services - L\u00F3gica\\PedidoService.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Services - L\u00F3gica\\PedidoService.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:44:22.182Z",
@@ -176,12 +180,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 21,
               "Title": "ProdutoService.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services\\ProdutoService.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Services\\ProdutoService.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services\\ProdutoService.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Services\\ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services - L\u00F3gica\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Services - L\u00F3gica\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services - L\u00F3gica\\ProdutoService.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Services - L\u00F3gica\\ProdutoService.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAA0wDMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:36:09.062Z",
@@ -189,25 +193,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Models\\Pedido.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models\\Pedido.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Models\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models - Entidades do sistema\\Pedido.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Models - Entidades do sistema\\Pedido.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models - Entidades do sistema\\Pedido.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Models - Entidades do sistema\\Pedido.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvxkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:35:03.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 22,
               "Title": "frmMain.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmMain.Designer.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views\\frmMain.Designer.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmMain.Designer.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Views\\frmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.Designer.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.Designer.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:27:26.893Z",
@@ -215,362 +219,373 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 20,
               "Title": "frmMain.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmMain.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views\\frmMain.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmMain.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Views\\frmMain.cs",
-              "ViewState": "AgIAABMBAAAAAAAAAAAswBAAAABmAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:30:02.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Databasecontext.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Data\\Databasecontext.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Data\\Databasecontext.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Data\\Databasecontext.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Data\\Databasecontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAgAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Data - Conex\u00E3o com banco\\Databasecontext.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Data - Conex\u00E3o com banco\\Databasecontext.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Data - Conex\u00E3o com banco\\Databasecontext.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Data - Conex\u00E3o com banco\\Databasecontext.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T14:12:04.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "GerenciadorDados.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services\\GerenciadorDados.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Services\\GerenciadorDados.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services\\GerenciadorDados.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Services\\GerenciadorDados.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwB8AAAAgAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services - L\u00F3gica\\GerenciadorDados.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Services - L\u00F3gica\\GerenciadorDados.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Services - L\u00F3gica\\GerenciadorDados.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Services - L\u00F3gica\\GerenciadorDados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T20:31:14.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ucCaixa.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCaixa.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucCaixa.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCaixa.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucCaixa.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:56:46.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ucCaixa.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCaixa.Designer.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucCaixa.Designer.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCaixa.Designer.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucCaixa.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.Designer.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.Designer.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.Designer.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.Designer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:55:03.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "ucCozinha.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCozinha.Designer.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucCozinha.Designer.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCozinha.Designer.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucCozinha.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.Designer.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.Designer.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.Designer.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:48:15.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "ucMesas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucMesas.Designer.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucMesas.Designer.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucMesas.Designer.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucMesas.Designer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAABUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.Designer.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.Designer.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.Designer.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.Designer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:33:33.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ucRelatorios.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucRelatorios.Designer.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucRelatorios.Designer.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucRelatorios.Designer.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucRelatorios.Designer.cs",
-              "ViewState": "AgIAABYBAAAAAAAAAAAAAE4AAAAhAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.Designer.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.Designer.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.Designer.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.Designer.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAABgBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T18:06:58.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "ucRelatorios.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucRelatorios.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucRelatorios.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucRelatorios.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucRelatorios.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAAwDoAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T18:03:36.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "ucRelatorios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucRelatorios.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucRelatorios.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucRelatorios.cs [Design]",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucRelatorios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.cs [Design]",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucRelatorios.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T18:03:23.36Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "ucCaixa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCaixa.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucCaixa.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCaixa.cs [Design]",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucCaixa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.cs [Design]",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCaixa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:54:58.842Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
               "Title": "Mesa.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models\\Mesa.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Models\\Mesa.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models\\Mesa.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Models\\Mesa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models - Entidades do sistema\\Mesa.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Models - Entidades do sistema\\Mesa.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models - Entidades do sistema\\Mesa.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Models - Entidades do sistema\\Mesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:24:23.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
               "Title": "databaseconfig.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Data\\databaseconfig.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Data\\databaseconfig.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Data\\databaseconfig.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Data\\databaseconfig.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB4AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Data - Conex\u00E3o com banco\\databaseconfig.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Data - Conex\u00E3o com banco\\databaseconfig.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Data - Conex\u00E3o com banco\\databaseconfig.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Data - Conex\u00E3o com banco\\databaseconfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T14:01:29.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "PedidoRepo.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories\\PedidoRepo.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Repositories\\PedidoRepo.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories\\PedidoRepo.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Repositories\\PedidoRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories - Acesso a dados\\PedidoRepo.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Repositories - Acesso a dados\\PedidoRepo.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories - Acesso a dados\\PedidoRepo.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Repositories - Acesso a dados\\PedidoRepo.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAuwM8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T14:14:20.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 2,
               "Title": "MesaRepo.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories\\MesaRepo.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Repositories\\MesaRepo.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories\\MesaRepo.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Repositories\\MesaRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories - Acesso a dados\\MesaRepo.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Repositories - Acesso a dados\\MesaRepo.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories - Acesso a dados\\MesaRepo.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Repositories - Acesso a dados\\MesaRepo.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowHkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T14:13:14.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 0,
               "Title": "ProdutoRepo.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories\\ProdutoRepo.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Repositories\\ProdutoRepo.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories\\ProdutoRepo.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Repositories\\ProdutoRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories - Acesso a dados\\ProdutoRepo.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Repositories - Acesso a dados\\ProdutoRepo.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Repositories - Acesso a dados\\ProdutoRepo.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Repositories - Acesso a dados\\ProdutoRepo.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T14:15:38.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 3,
               "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models\\Produto.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models - Entidades do sistema\\Produto.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Models - Entidades do sistema\\Produto.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Models - Entidades do sistema\\Produto.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Models - Entidades do sistema\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:35:35.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "frmMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmMain.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views\\frmMain.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmMain.cs [Design]",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Views\\frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.cs [Design]",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:27:16.361Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "frmPedido.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmPedido.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views\\frmPedido.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmPedido.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Views\\frmPedido.cs",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:37:54.724Z"
+              "WhenOpened": "2025-11-28T17:37:54.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 6,
               "Title": "ucMesas.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucMesas.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucMesas.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucMesas.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucMesas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAATAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:31:34.111Z"
+              "WhenOpened": "2025-11-28T17:31:34.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Program.cs",
               "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Program.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Program.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Program.cs",
               "RelativeToolTip": "Forms_LLCART_Projeto\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:23:58.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Form1.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Form1.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Form1.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T19:22:06.049Z"
+              "WhenOpened": "2025-11-28T17:23:58.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "frmPedido.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmPedido.Designer.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views\\frmPedido.Designer.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmPedido.Designer.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Views\\frmPedido.Designer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwNIAAAABAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Form1.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Form1.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Form1.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:40:47.481Z"
+              "WhenOpened": "2025-11-28T19:22:06.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\App.config",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\App.config",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\App.config",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-30T14:08:46.885Z"
+              "Title": "frmPedido.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.Designer.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.Designer.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.Designer.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwNIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T17:40:47.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\App.config",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\App.config",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\App.config",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-30T14:08:46.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ucCozinha.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCozinha.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucCozinha.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCozinha.cs",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucCozinha.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAkwOIAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.cs",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:45:15.308Z"
+              "WhenOpened": "2025-11-28T17:45:15.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Form1.cs",
               "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Form1.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Form1.cs [Design]",
               "RelativeToolTip": "Forms_LLCART_Projeto\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:16:45.236Z"
+              "WhenOpened": "2025-11-28T17:16:45.236Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "ucCozinha.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCozinha.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucCozinha.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucCozinha.cs [Design]",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucCozinha.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.cs [Design]",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucCozinha.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:45:05.881Z"
+              "WhenOpened": "2025-11-28T17:45:05.881Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "frmPedido.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmPedido.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views\\frmPedido.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views\\frmPedido.cs [Design]",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\Views\\frmPedido.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.cs [Design]",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\Views - Formul\u00E1rios\\frmPedido.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:37:11.06Z"
+              "WhenOpened": "2025-11-28T17:37:11.06Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "ucMesas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucMesas.cs",
-              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls\\ucMesas.cs",
-              "ToolTip": "C:\\Users\\mathe\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls\\ucMesas.cs [Design]",
-              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls\\ucMesas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.cs",
+              "RelativeDocumentMoniker": "Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.cs",
+              "ToolTip": "C:\\Users\\lab1058\\Downloads\\Progama_LLCART\\Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.cs [Design]",
+              "RelativeToolTip": "Forms_LLCART_Projeto\\UserControls - Interface\\ucMesas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:31:29.812Z"
+              "WhenOpened": "2025-11-28T17:31:29.812Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

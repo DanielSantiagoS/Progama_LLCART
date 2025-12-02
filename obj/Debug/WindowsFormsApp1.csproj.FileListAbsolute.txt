@@ -1,0 +1,4 @@
+C:\Users\lab1058\Downloads\Progama_LLCART\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\lab1058\Downloads\Progama_LLCART\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\lab1058\Downloads\Progama_LLCART\obj\Debug\WindowsFormsApp1.janelanova.resources
+C:\Users\lab1058\Downloads\Progama_LLCART\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
