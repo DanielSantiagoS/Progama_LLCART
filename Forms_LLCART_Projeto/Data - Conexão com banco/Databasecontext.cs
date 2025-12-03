@@ -13,12 +13,12 @@ namespace Forms_LLCART_Projeto.Data
             try
             {
                 string connectionString = DatabaseConfig.ConnectionString;
-                _connection = new MySqlConnection(connectionString);
-                _connection.Open();
+                _connection = new MySqlConnection(connectionString); // coleta a string de conexao da classe
+                _connection.Open(); //abre conexão
 
-                Console.WriteLine($" Conectado ao banco: {DatabaseConfig.ConnectionString.Split(';')[1]}");
+                Console.WriteLine($" Conectado ao banco: {DatabaseConfig.ConnectionString.Split(';')[1]}"); //exibe a mensagem  de conexao com o banco
             }
-            catch (Exception ex)
+            catch (Exception ex) //executa uma mensagem de erro
             {
                 string erro = $"{DateTime.Now:dd/MM/yyyy HH:mm:ss} - Erro de conexão: {ex.Message}\n";
                 System.IO.File.AppendAllText("log_erros.txt", erro);
@@ -33,17 +33,17 @@ namespace Forms_LLCART_Projeto.Data
                     "Erro de Conexão",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error
-                );
-                throw; //die
+                ); //mensagem bonitinha
+                throw; //die = nao executa mais nada apos o erro ou conexao
             }
         }
 
-        public MySqlConnection GetConnection()
+        public MySqlConnection GetConnection() 
         {
-            return _connection;
+            return _connection;//retorna o valor da conexao 
         }
 
-        public void Dispose()
+        public void Dispose() //encerrar conexao com o banco de dados
         {
             _connection?.Close();
             _connection?.Dispose();
@@ -55,16 +55,16 @@ namespace Forms_LLCART_Projeto.Data
         {
             try
             {
-                using (var context = new DatabaseContext())
+                using (var context = new DatabaseContext()) //inicia a conexao com o banco
                 {
-                    var command = new MySqlCommand("SELECT 1", context.GetConnection());
-                    command.ExecuteScalar();
+                    var command = new MySqlCommand("SELECT 1", context.GetConnection()); //obtem a string de conexao da classe
+                    command.ExecuteScalar(); //obtem o primeiro valor exibido 
 
                     Console.WriteLine(" Teste de conexão com banco: OK");
                     return true;
                 }
             }
-            catch (Exception ex)
+            catch (Exception ex) //cria a mensagem de erro 
             {
                 string erro = $"{DateTime.Now:dd/MM/yyyy HH:mm:ss} - Teste conexão falhou: {ex.Message}\n";
                 System.IO.File.AppendAllText("log_erros.txt", erro);

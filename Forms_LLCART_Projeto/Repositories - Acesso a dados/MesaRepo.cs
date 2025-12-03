@@ -6,8 +6,8 @@ using Forms_LLCART_Projeto.Data;
 
 namespace Forms_LLCART_Projeto.Repositories
 {
-    public class MesaRepo
-    {
+    public class MesaRepo //o repo é a separação da logica, entrada de dados 
+    {//REPO PARA AS OPERAÇÔES CRUD, NAO CONFUNDIR
         public List<Mesa> ObterTodas()
         {
             var mesas = new List<Mesa>();
@@ -15,12 +15,12 @@ namespace Forms_LLCART_Projeto.Repositories
             using (var context = new DatabaseContext())
             {
                 var command = new MySqlCommand(
-                    "SELECT Id, Numero, Capacidade, Status, ComandaAtual FROM Mesas ORDER BY Numero",
+                    "SELECT Id, Numero, Capacidade, Status, ComandaAtual FROM Mesas ORDER BY Numero", //seleciona todas as mesas ordenada pelo numero
                     context.GetConnection());
 
                 using (var reader = command.ExecuteReader())
                 {
-                    while (reader.Read())
+                    while (reader.Read()) //leitura de dados e atribuição de dados a variaveis
                     {
                         mesas.Add(new Mesa
                         {

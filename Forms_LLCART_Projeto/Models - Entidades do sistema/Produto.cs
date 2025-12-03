@@ -1,6 +1,6 @@
 ﻿namespace Forms_LLCART_Projeto.Models
 {
-    public class Produto
+    public class Produto //classe produto que vai ser usada posteriormente para atribuição e coleta de dados (get;set) 
     {
         public int Id { get; set; }
         public string Nome { get; set; }

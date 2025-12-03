@@ -4,7 +4,7 @@ using System.ComponentModel;
 
 namespace Forms_LLCART_Projeto.Models
 {
-    public class Pedido
+    public class Pedido 
     {
         public int Id { get; set; }
         public int MesaId { get; set; }
@@ -19,9 +19,9 @@ namespace Forms_LLCART_Projeto.Models
 
         public Pedido()
         {
-            Itens = new List<ItemPedido>();
+            Itens = new List<ItemPedido>(); //list = array, inicia o array vazio/ array = vetor
             DataAbertura = DateTime.Now;
-            Status = StatusPedido.Aberto;
+            Status = StatusPedido.Aberto; //status do pedido que é aderido pelo get;set
         }
         
         private decimal CalcularTotal()
@@ -29,7 +29,7 @@ namespace Forms_LLCART_Projeto.Models
             decimal total = 0;
             foreach (var item in Itens)
             {
-                if (item.Status != StatusItem.Cancelado)
+                if (item.Status != StatusItem.Cancelado) //percorre o list de itens (foreach), e se nao tiver sido cancelado soma o subtotal dos itens (!cancelado)
                     total += item.Subtotal;
             }
             return total;
@@ -51,14 +51,15 @@ namespace Forms_LLCART_Projeto.Models
         public string UsuarioResponsavel { get; set; }
     }
 
-    public enum StatusPedido
+    public enum StatusPedido //estado de uma variavel exemplo: coletou o dado e deu igual a 1, 1 = livre, ou 2 = ocupada
+                             // o enum serve para indicar um "estado" de uma variavel
     {
         Aberto,
         Fechado,
         Cancelado
     }
 
-    public enum StatusItem
+    public enum StatusItem //status que vai servir como base em metodos futuros (influencia no design tambem)
     {
         [Description("Novo")]
         Novo,
